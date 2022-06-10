@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./img/weather.png" type="image/x-icon">
+
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        
+        <p>It is {{forecast}} in {{location}} at {{temp}} Farenhiet but it feels like {{feelsLike}} Farenhiet</p>
+    </div>
+    
+    {{>footer}}
+</body>
+</html>

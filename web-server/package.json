@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "require": "^0.4.4"
   }
 }
