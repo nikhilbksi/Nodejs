@@ -51,6 +51,8 @@ const userSchema= mongoose.Schema({      //the object can be directly put in mon
             required: true
         }
     }]
+}, {
+    timestamps: true        //automatically adds 2 fields: created at and last updated
 });
 
 //indicates a relation between tasks and user
